@@ -72,9 +72,9 @@ if(isset($_POST['add_to_cart'])){
    </div>
 
    <div class="content">
-      <h3>Medicines Made Accessible</h3>
+      <h3>We Plant Connections, We Grow Partnerships</h3>
       <p>For Reliable and Quick purchase delivery in the Philippines. Choose Us.</p>
-      <a href="about.php" class="white-btn"style= "background-color: #2a0475">DISCOVER MOO</a>
+      <a href="about.php" class="white-btn"style= "background-color: #7bb701">DISCOVER MOO</a>
    </div>
 
 </section>
@@ -140,7 +140,7 @@ if(isset($_POST['add_to_cart'])){
       <input type="hidden" name="product_qty" value="<?php echo $fetch_products['product_qty']; ?>">
       <input type="hidden" name="product_price" value="<?php echo $fetch_products['price']; ?>">
       <input type="hidden" name="product_image" value="<?php echo $fetch_products['image']; ?>">
-      <input type="submit" value="add to cart" name="add_to_cart" class="btn"style= "background-color: #ea0f8f">
+      <input type="submit" value="add to cart" name="add_to_cart" class="btn"style= "background-color: #f1a50f">
      </form>
       <?php
          }
@@ -151,7 +151,7 @@ if(isset($_POST['add_to_cart'])){
    </div>
 
    <div class="load-more" style="margin-top: 2rem; text-align:center">
-      <a href="shop.php" class="option-btn"style= "background-color: #2a0475">Load More</a>
+      <a href="shop.php" class="option-btn"style= "background-color: #424242">Load More</a>
    </div>
 
 </section>

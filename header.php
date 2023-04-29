@@ -16,9 +16,9 @@ if(isset($message)){
    <div class="header-1">
       <div class="flex">
          <div class="share">
-         <img src="LOGO.png" class="responsive">
+         <img src="cropcomm_logo.png" class="responsive"  style="height:78.75px;width:78.75px">
          </div>
-         <a href="logout.php" class="delete-btn" style= "background-color: #ea0f8f">logout</a>
+         <a href="logout.php" class="delete-btn" style= "background-color: #f1a50f">logout</a>
       </div>
    </div>
 

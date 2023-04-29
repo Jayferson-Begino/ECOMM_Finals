@@ -33,7 +33,7 @@ if(isset($message)){
       <div class="account-box">
          <p>USER: <span><?php echo $_SESSION['admin_name']; ?></span></p>
          <p>EMAIL: <span><?php echo $_SESSION['admin_email']; ?></span></p>
-         <a href="logout.php" class="delete-btn" style= "background-color: #ea0f8f">logout</a>
+         <a href="logout.php" class="delete-btn" style= "background-color: #f1a50f">logout</a>
          <div><a href="login.php">Switch Account</a></div>
       </div>
 

@@ -65,7 +65,7 @@ if(isset($_GET['delete'])){
                 <td><?php echo $fetch_users['id'];?></td>
                 <td><?php echo $fetch_users['name']; ?></td>
                 <td><?php echo $fetch_users['email'];?></td>
-                <td><?php if($fetch_users['user_type'] == 'ADMIN'){ echo 'var(--pink)'; } ?><?php echo $fetch_users['user_type']; ?></td>
+                <td><?php if($fetch_users['user_type'] == 'ADMIN'){ echo 'var(--orange)'; } ?><?php echo $fetch_users['user_type']; ?></td>
                 <td> <a href="admin_users.php?delete=<?php echo $fetch_users['id']; ?>" onclick="return CONFIRM('delete this user?');" class="delete-btn">DELETE USER</a></td>
    </div>
             </tr>

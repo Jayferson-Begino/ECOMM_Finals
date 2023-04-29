@@ -44,7 +44,7 @@ if(!isset($user_id)){
    <div class="flex">
 
       <div class="image">
-         <img src="LOGO.png" alt="">
+         <img src="cropcomm_logo.png" alt="">
       </div>
 
       <div class="content">

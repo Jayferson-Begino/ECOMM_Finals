@@ -78,7 +78,7 @@ if(isset($_POST['add_to_cart'])){
       <input type="hidden" name="product_name" value="<?php echo $fetch_product['name']; ?>">
       <input type="hidden" name="product_price" value="<?php echo $fetch_product['price']; ?>">
       <input type="hidden" name="product_image" value="<?php echo $fetch_product['image']; ?>">
-      <input type="submit" class="btn" value="add to cart" name="add_to_cart"style= "background-color: #ea0f8f">
+      <input type="submit" class="btn" value="add to cart" name="add_to_cart"style= "background-color: #f1a50f">
    </form>
    <?php
             }

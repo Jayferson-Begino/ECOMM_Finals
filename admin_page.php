@@ -37,7 +37,7 @@ if(!isset($admin_id)){
 
    <h1 class="title">DASHBOARD</h1>
    <div class="responsive">
-   <img src="LOGO.png">
+   <img src="cropcomm_logo.png" class="responsive" style="height:200px;width:200px">
    </div>
    <div class="box-container">
 

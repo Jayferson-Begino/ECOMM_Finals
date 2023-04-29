@@ -6,9 +6,10 @@
    --blue: #2a0475;
    --purple:#8e44ad;
    --red:#c0392b;
-   --orange:#f39c12;
-   --black:#333;
-   --white:#fff;
+   --orange:#f1a50f;
+   --black:#424242;
+   --white:#f2f2f2;
+   --green: #7bb701;
    --light-color:#666;
    --light-white:#ccc;
    --light-bg:#f5f5f5;
@@ -29,7 +30,7 @@
 }
 
 *::selection{
-   background-color: var(--blue);
+   background-color: var(--black);
    color:var(--white);
 }
 
@@ -43,7 +44,7 @@
 }
 
 *::-webkit-scrollbar-thumb{
-   background-color:var(--pink);
+   background-color:var(--orange);
 }
 
 html{
@@ -60,7 +61,7 @@ section{
    text-align: center;
    border:var(--border);
    background-color: var(--white);
-   color:var(--pink);
+   color:var(--orange);
    font-size: 2rem;
 }
 
@@ -69,7 +70,7 @@ section{
    top:0;
    margin:0 auto;
    max-width: 1200px;
-   background-color: var(--pink);
+   background-color: var(--orange);
    padding:2rem;
    display: flex;
    align-items: center;
@@ -85,7 +86,7 @@ section{
 
 .message i{
    cursor: pointer;
-   color:var(--blue);
+   color:var(--black);
    font-size: 2.5rem;
 }
 
@@ -127,7 +128,7 @@ section{
 }
 
 .option-btn{
-   background-color: var(--pink);
+   background-color: var(--orange);
 }
 
 .delete-btn{
@@ -135,7 +136,7 @@ section{
 }
 
 .white-btn:hover{
-   background-color: var(--pink);
+   background-color: var(--orange);
    color:var(--black);
 }
 
@@ -146,7 +147,7 @@ section{
    align-items: center;
    justify-content: center;
    gap:1rem;
-   background: url(../images/aboutus.png) no-repeat;
+   background: url(../images/cropcomm_aboutus.jpg) no-repeat;
    background-size: cover;
    background-position: center;
    text-align: center;
@@ -163,18 +164,18 @@ section{
     background-position: center;
     text-align: center;
  }
- .headingshop{
+.headingshop {
     min-height: 30vh;
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    gap:1rem;
-    background: url(../images/shop.png) no-repeat;
+    gap: 1rem;
+    background: url(../images/agriculture.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
- }
+}
  .headingsearch{
     min-height: 30vh;
     display: flex;
@@ -377,7 +378,7 @@ video {
  }
  
  .form-containers form p a{
-    color:var(--blue);
+    color:var(--black);
  }
  
  .form-containers form p a:hover{
@@ -386,7 +387,7 @@ video {
  
  
 .header .header-1{
-   background-color: var(--light-bg);
+   background-color: var(--white);
   
 }
 
@@ -401,7 +402,7 @@ video {
 }
 
 .header .header-2{
-   background-color: var(--blue);
+   background-color:var(--black);
    box-shadow: var(--box-shadow);
 
 }
@@ -424,20 +425,20 @@ video {
 
 
 .header .header-1 .flex .share a:hover{
-   color: var(--blue);
+   color: var(--black);
 }
 
 .header .header-1 .flex p{
    font-size: 2rem;
-   color:var(--pink);
+   color:var(--orange);
 }
 
 .header .header-1 .flex p a{
-   color: var(--pink);
+   color: var(--orange);
 }
 
 .header .header-1 .flex p a:hover{
-    color:var(--pink);
+    color:var(--orange);
    text-decoration: underline;
    
 
@@ -453,30 +454,30 @@ video {
 .header .header-2 .flex .navbar{
   font-size: 2.5rem;
   margin:0 1rem;
-   color: var(--pink);
+   color: var(--orange);
    align-items: stretch;
 
 }
 .header .header-2 .flex .navbar a{
-    color: var(--pink);
+    color: var(--orange);
     margin:0 1rem;
  
  }
 
 .header .header-2 .flex .navbar a:hover{
-   color: var(--purple);
+   color: var(--green);
    text-decoration: underline;
 }
 
 .header .header-2 .flex .icons > *{
    font-size: 2rem;
-   color: var(--pink);
+   color: var(--orange);
    cursor: pointer;
    margin-left: 1.5rem;
 }
 
 .header .header-2 .flex .icons > *:hover{
-   color:var(--purple);
+   color: var(--green);
 }
 
 #menu-btn{
@@ -503,12 +504,12 @@ video {
 
 .header .header-2 .flex .user-box p{
    font-size: 2rem;
-   color:var(--pink);
+   color:var(--orange);
    margin-bottom: 1.5rem;
 }
 
 .header .header-2 .flex .user-box p span{
-   color: var(--blue);
+   color: var(--green);
 }
 
 .header .header-2 .flex .user-box .delete-btn{
@@ -574,19 +575,19 @@ video {
     position: relative;
  }
 .carouselz .carousel-control.right, .carousel-control.left {
-    color: var(--pink);
+    color: var(--orange);
     
     }
     .carousel-indicators li {
-    border-color:var(--pink);
+    border-color:var(--orange);
 
     }
     .carousel-indicators li.active {
-    background-color: var(--pink);
+    background-color: var(--orange);
 
     }
 .carouselz {
-   background: #fff;
+   background:var(--white);
  }
  
  .carouselz .carousel-indicators {
@@ -676,7 +677,7 @@ video {
  
  .home-blogs .box-container .box{
     border:var(--border);
-    box-shadow: var(--blue);
+    box-shadow: var(--black);
     border-radius: .5rem;
     padding: 2rem;
  }
@@ -714,12 +715,12 @@ video {
  }
  
  .home-blogs .box-container .box .content .icon a:hover{
-    color:var(--blue);
+    color:var(--black);
  }
  
  .home-blogs .box-container .box .content .icon a i{
     padding-right: .5rem;
-    color: var(--blue);
+    color: var(--black);
  }
  
  .home-blogs .box-container .box .content h3{
@@ -771,7 +772,7 @@ video {
 }
 
 .top> *:hover{
-   color:var(--blue);
+   color:var(--black);
 }
  
 
@@ -802,7 +803,7 @@ video {
 .about .flex .content{
    flex:1 1 50rem;
    padding:2rem;
-   background-color: var(--blue);
+   background-color: var(--black);
  
    
 }
@@ -833,7 +834,7 @@ video {
 }
 
 .choose  .box-container .box{
-   background:var(--blue);
+   background:var(--black);
    border-radius: .7rem;
    box-shadow: var(--box-shadow);
    border:var(--border);
@@ -843,7 +844,7 @@ video {
    transform:scale(1.2);
 }
 .choose  .box-container .box i{
-   color: var(--pink);
+   color: var(--orange);
    font-size: 6rem;
    padding-bottom: .5rem;
 }
@@ -899,7 +900,7 @@ video {
    width: 4rem;
    line-height: 4.5rem;
    font-size: 2rem;
-   background-color: var(--pink);
+   background-color: var(--orange);
    border:var(--border);
    display: block;
    margin-top: 1rem;
@@ -907,7 +908,7 @@ video {
 }
 
 .partners .box-container .box .share a:hover{
-   background-color: var(--blue);
+   background-color: var(--black);
    color:var(--white);
 }
 
@@ -916,10 +917,10 @@ video {
    color:var(--black);
    padding:1.5rem;
    text-transform: uppercase;
-    background-color: var(--blue);
+    background-color: var(--black);
 }
 .partners .box-container .box h3 a{
-    color:var(--pink);
+    color:var(--orange);
   
  }
  .partners .box-container .box h3 a:hover{
@@ -962,7 +963,7 @@ video {
 }
 
 .reviews .box-container .box .stars{
-   background-color: var(--pink);
+   background-color: var(--orange);
    display: inline-block;
    margin:.5rem 0;
    border-radius: .5rem;
@@ -978,7 +979,7 @@ video {
 
 .reviews .box-container .box h3{
    font-size: 2rem;
-   color:var(--blue);
+   color:var(--black);
    margin-top: 1rem;
 }
 .button {
@@ -986,7 +987,7 @@ video {
 }
 .button a:hover{
     text-decoration: underline;
-    background-color: var(--blue);
+    background-color: var(--black);
 }
 .contact{
 	position: relative;
@@ -1012,7 +1013,7 @@ video {
  }
 .contact form{
     margin:0 auto;
-    border-color: var(--blue);
+    border-color: var(--black);
     border-radius: .5rem;
     border:var(--border);
     padding:2rem;
@@ -1025,7 +1026,7 @@ video {
     font-size: 2.5rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
-    color:var(--pink);
+    color:var(--orange);
  }
  
  .contact form .box{
@@ -1039,13 +1040,13 @@ video {
 	transition: .3s;
  }
  .contact form .box:hover{
-    background-color: var(--blue)
+    background-color: var(--black)
  }
  
 .email{
     font-size: 2.5rem;
     text-transform: uppercase;
-    color:var(--pink);
+    color:var(--orange);
 }
  .contact form textarea{
     height: 20rem;
@@ -1169,11 +1170,11 @@ video {
  .shopping-cart .box-container .box .sub-total{
     padding-top: 1.5rem;
     font-size: 2rem;
-    color:var(--blue);
+    color:var(--black);
  }
  
  .shopping-cart .box-container .box .sub-total span{
-    color:var(--blue);
+    color:var(--black);
  }
  
  .shopping-cart .cart-total{
@@ -1184,16 +1185,16 @@ video {
     text-align: center;
     margin-top: 2rem;
     border-radius: .5rem;
-    color: var(--blue);
+    color: var(--black);
  }
  
  .shopping-cart .cart-total p{
     font-size: 2.5rem;
-    color:var(--blue);
+    color:var(--black);
  }
  
  .shopping-cart .cart-total p span{
-    color:var(--purple);
+    color:var(--black);
  }
  
  .shopping-cart .cart-total .flex{
@@ -1204,7 +1205,7 @@ video {
     justify-content: center;
  }
  .shopping-cart .cart-total .flex a{
-    color: var(--blue);
+    color: var(--black);
  }
  .shopping-cart .cart-total .flex a:hover{
     text-decoration: underline;
@@ -1226,7 +1227,7 @@ video {
  }
  
  .display-order p{
-    background-color: var(--pink);
+    background-color: var(--orange);
     color:var(--white);
     font-size: 2rem;
     padding:1rem 1.5rem;
@@ -1236,7 +1237,7 @@ video {
  }
  
  .display-order p span{
-    color:var(--blue);
+    color:var(--black);
  }
  .display-order .comp-total{
     margin-top: 2rem;
@@ -1245,7 +1246,7 @@ video {
  }
  
  .display-order .comp-total span{
-    color:var(--purple);
+    color:var(--black);
  }
  
  .display-order .grand-total{
@@ -1263,7 +1264,7 @@ video {
     padding:2rem;
     margin:0 auto;
     border:var(--border);
-    background-color: var(--blue);
+    background-color: var(--black);
     border-radius: .5rem;
  }
  
@@ -1323,14 +1324,14 @@ video {
     border-radius: .5rem;
     padding:2rem;
     border:var(--border);
-    background-color: var(--blue);
+    background-color: var(--black);
     padding:1rem 2rem;
  }
  
  .placed-orders .box-container .box p{
     padding:1rem 0;
     font-size: 2rem;
-    color:var(--pink);
+    color:var(--orange);
  }
  
  .placed-orders .box-container .box p span{
@@ -1358,7 +1359,7 @@ video {
     border-radius: .5rem;
  }
  .search-form form .btn:hover{
-    color:var(--blue);
+    color:var(--black);
   
  }
  
@@ -1392,12 +1393,12 @@ video {
 
 .footer .box-container .box p i,
 .footer .box-container .box a i{
-   color: var(--pink);
+   color: var(--orange);
    padding-right: .5rem;
 }
 
 .footer .box-container .box a:hover{
-   color:var(--pink);
+   color:var(--orange);
    text-decoration: underline;
 }
 

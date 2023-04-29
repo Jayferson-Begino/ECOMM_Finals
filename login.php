@@ -76,13 +76,13 @@ if(isset($message)){
    
    <form action="" method="post">
    <div class="share">
-         <img src="LOGO.png" class="responsive">
+         <img src="cropcomm_logo.png" class="responsive">
          </div>
       <h3>Sign in to your Account</h3>
       <input type="email" name="email" placeholder="Email" required class="box">
       <input type="password" name="password" placeholder="Password" required class="box">
   
-         <input type="submit" name="submit"style= "background-color: #ea0f8f" value="Login" class="btn">
+         <input type="submit" name="submit"style= "background-color: #f1a507" value="Login" class="btn">
 
       <p>Don't have an account? <a href="register.php">Register.</a></p>
    </form>

@@ -5,9 +5,9 @@
    --blue:#2a0475;
    --purple:#8e44ad;
    --red:#c0392b;
-   --orange:#f39c12;
-   --black:#333;
-   --white:#fff;
+   --orange:#f1a50f;
+   --black:#424242;
+   --white:#f2f2f2;
    --gray: #6a6c70;
    --light-gray :#8a8d93;
    --light-color:#616161;
@@ -42,7 +42,7 @@
 }
 
 *::-webkit-scrollbar-thumb{
-   background-color: var(--pink);
+   background-color: var(--orange);
 }
 
 .tile-link {
@@ -127,7 +127,7 @@ html{
 }
 
 body{
-   background-color: var(--blue);
+   background-color: var(--black);
    position: relative;
 }
 
@@ -168,12 +168,12 @@ section{
 
 .message span{
    font-size: 2rem;
-   color:var(--blue);
+   color:var(--black);
 }
 
 .message i{
    cursor: pointer;
-   color:var(--blue);
+   color:var(--black);
    font-size: 2.5rem;
 }
 
@@ -203,11 +203,11 @@ section{
 
 .white-btn,
 .btn{
-   background-color: var(--pink);
+   background-color: var(--orange);
 }
 
 .option-btn{
-   background-color: var(--purple);
+   background-color: var(--black);
 }
 
 .delete-btn{
@@ -230,7 +230,7 @@ section{
    position: sticky;
    top:0; left:0; right:0;
    z-index: 1000;
-   background-color: var(--pink);
+   background-color: var(--orange);
    box-shadow: var(--box-shadow);
 }
 
@@ -246,7 +246,7 @@ section{
  
 .header .flex .logo{
    font-size: 2.5rem;
-   color:var(--blue);
+   color:var(--black);
 }
 
 .header .flex .logo span{
@@ -260,7 +260,7 @@ section{
 }
 
 .header .flex .navbar a:hover{
-   color:var(--blue);
+   color:var(--black);
    text-decoration: underline;
 }
 
@@ -354,7 +354,7 @@ section{
 
 .dashboard .box-container .box h3{
    font-size: 5rem;
-   color:var(--pink); 
+   color:var(--orange); 
 }
 .dashboard .responsive{
     width: 100%;
@@ -372,7 +372,7 @@ section{
 .dashboard .box-container .box p{
    margin-top: 1.5rem;
    padding:1.5rem;
-   background-color: var(--blue);
+   background-color: var(--black);
    color:var(--white);
    font-size: 2rem;
    border-radius: .5rem;
@@ -381,7 +381,7 @@ section{
 .dashboard .box-container .box a{
     margin-top: 1.5rem;
     padding:1.5rem;
-    background-color: var(--blue);
+    background-color: var(--black);
     color:var(--white);
     font-size: 2rem;
     border-radius: .5rem;
@@ -405,7 +405,7 @@ section{
 .add-products form h3{
    font-size: 2.5rem;
    text-transform: uppercase;
-   color:var(--pink);
+   color:var(--orange);
    margin-bottom: 1.5rem;
 }
 
@@ -450,7 +450,7 @@ section{
 .show-products .box-container .box .name{
    padding:1rem 0;
    font-size: 2rem;
-   color:var(--blue);
+   color:var(--black);
 }
 
 .show-products .box-container .box .price{
@@ -527,7 +527,7 @@ section{
 }
 
 .orders .box-container .box p span{
-   color:var(--blue);
+   color:var(--black);
 }
 
 .orders .box-container .box form{
@@ -549,7 +549,7 @@ section{
     margin: auto;
     font-size: 3rem;
     cursor: pointer;
-    color:var(--pink);
+    color:var(--orange);
     text-align: center;
  }
  .orders h1 a:hover{
@@ -607,7 +607,7 @@ section{
  }
  
  .adminsearch-form.box-container .box p span{
-    color:var(--blue);
+    color:var(--black);
     background-color: var(--light-bg);
  }
  
@@ -648,7 +648,7 @@ section{
     border: 1px solid black;
     padding: 10px;
     text-align: center;
-    color: var(--pink);
+    color: var(--orange);
     
 }
 .users  td {
@@ -688,7 +688,7 @@ section{
     border: 1px solid black;
     padding: 10px;
     text-align: center;
-    color: var(--pink);
+    color: var(--orange);
     
 }
 .messages td {
@@ -727,7 +727,7 @@ section{
     .header .flex .navbar{
        position: absolute;
        top:99%; left:0; right:0;
-       background-color: var(--pink);
+       background-color: var(--orange);
        border-top: var(--border);
        border-bottom: var(--border);
        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
