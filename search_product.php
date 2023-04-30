@@ -56,7 +56,7 @@ if(isset($_POST['add_to_cart'])){
 <section class="search-form">
    <form action="" method="post">
       <input type="text" name="search" placeholder="Name of Product" class="box">
-      <input type="submit" name="submit" value="search" class="btn" style= "background-color: #ea0f8f">
+      <input type="submit" name="submit" value="search" class="btn" style= "background-color: #7bb701">
    </form>
 </section>
 

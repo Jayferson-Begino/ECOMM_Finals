@@ -38,7 +38,7 @@ if(!isset($user_id)){
 
 <section class="about">
 <div class="opening">
-<h3> Welcome To Moo Med Store - A New Experience In Health, Beauty And Well-Being</h3>
+<h3> Welcome To Crop Comm Store - A New Experience In Agriculture, Sustainability And Well-Being</h3>
 </div>
 
    <div class="flex">
@@ -48,15 +48,9 @@ if(!isset($user_id)){
       </div>
 
       <div class="content">
-         <h3>YOUR ONE-STOP SOLUTION FOR ALL MEDICINE NEEDS</h3>
-         <p>The MOO Med Shop is backed by professionals with nearly two decades of experience in medical supplies and equipment.
-             With our partners from the Philippines and all over the world, The Medical Shop features a wide array of quality products for home health care and the healthcare practitioner.
-              Our commitment to customer satisfaction ensures shopping ease and timely product deliveries. 
-              Every day, The MOO Med Shop Direct offers these and more customers in the Philippines.</p>
-         <p>The MOO Med Store is backed by professionals with nearly two decades of experience in medical supplies and equipment. 
-      With our partners from the Philippines and all over the world, The MOO Med Store features a wide array of quality products for home health care and many more.
-      Our commitment to customer satisfaction ensures shopping ease and timely product deliveries. 
-      The MOO Med Store Direct provides these services and more to Filipino customers every day.
+         <h3>YOUR ONE-STOP SOLUTION FOR ALL YOUR AGRICULTURAL NEEDS</h3>
+         <p>Welcome to Crop Comm Store, an e-commerce website that serves as a bridge between farmers and buyers. Our platform is designed to create a transparent and direct channel for farmers to sell their crops and buyers to purchase fresh and sustainable food directly from the source. We are committed to supporting local agriculture and promoting healthy, sustainable food options for consumers.</p>
+         <p>Our team consists of passionate individuals who have a deep understanding of the challenges that farmers face in the current market. We understand the importance of fair pricing, timely payments, and reliable transportation for farmers to sustain their livelihoods. At the same time, we recognize the need for consumers to access fresh, healthy, and sustainably grown food. Our platform aims to address these needs by connecting farmers with buyers who value quality and sustainability.
       </p>
         
       </div>
@@ -67,14 +61,14 @@ if(!isset($user_id)){
 <!-- why moo -->
 
 <section class="choose">
-<h1 class="title"> Why choose Moo Med Store?</h1>
+<h1 class="title"> Why choose Crop Comm Store?</h1>
 
   
     <div class="box-container">
 
         <div class="box">
             <i class="fas fa-pills"></i>
-            <h3>Genuine Medicines</h3>
+            <h3>Genuine Agri-Products</h3>
  
         </div>
 
@@ -97,7 +91,7 @@ if(!isset($user_id)){
         </div>
         <div class="box">
             <i class="fas fa-user-doctor"></i>
-            <h3>Your health is our priority</h3>
+            <h3>Your Goals is our priority</h3>
    
         </div>
 
@@ -176,7 +170,7 @@ if(!isset($user_id)){
       <div class="box">
          <img src="images/r2.png" alt="">
          <p>Very helpful especially this pandemic. It also has a COD too so.
-             Gobless getmedsph hope you continue the quality service to help people who needs it most.</p>
+             Gobless Crop Comm Store hope you continue the quality service to help people who needs it most.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -189,7 +183,7 @@ if(!isset($user_id)){
 
       <div class="box">
          <img src="images/r2.png" alt="">
-         <p>I'm new to this online buying of medicine. but I can say that this company is efficient because it can give the needs that our physical pharmacy cant provide personally.
+         <p>I'm new to this online buying of Agri-Products, but I can say that this company is efficient because it can give the needs that our physical stores cant provide personally.
              Thank you so much</p>
          <div class="stars">
             <i class="fas fa-star"></i>
@@ -203,7 +197,7 @@ if(!isset($user_id)){
 
       <div class="box">
          <img src="images/r2.png" alt="">
-         <p>1st time user here and their portal is user friendly. The meds I ordered for my mom, who is living away from me and alone in an urban area, has been delivered on the same day. 
+         <p>1st time user here and their portal is user friendly. The products I ordered for my mom, who is living away from me and alone in an urban area, has been delivered on the same day. 
             Thanks a lot.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
@@ -231,7 +225,7 @@ if(!isset($user_id)){
 
       <div class="box">
          <img src="images/r2.png" alt="">
-         <p>Im really pleased to have a very reliable online pharmacy! So helpful to get my pharmacy needs and prescriptions medicines on the same day! Thank you!</p>
+         <p>Im really pleased to have a very reliable online argicultural store! So helpful to get my acgricultural needs on the same day! Thank you!</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -244,7 +238,7 @@ if(!isset($user_id)){
 
       <div class="box">
          <img src="images/r2.png" alt="">
-         <p>Highly recommend this company! They go above and beyond to make sure your prescription is filled. If the medicine is out of stock, they really make the effort to find it for you. 
+         <p>Highly recommend this store! They go above and beyond to make sure your order is filled. If the prodiuct is out of stock, they really make the effort to find it for you. 
             Thank you. 5/5!.</p>
          <div class="stars">
             <i class="fas fa-star"></i>

@@ -74,7 +74,7 @@ if(isset($_POST['add_to_cart'])){
    <div class="content">
       <h3>We Plant Connections, We Grow Partnerships</h3>
       <p>For Reliable and Quick purchase delivery in the Philippines. Choose Us.</p>
-      <a href="about.php" class="white-btn"style= "background-color: #7bb701">DISCOVER MOO</a>
+      <a href="about.php" class="white-btn"style= "background-color: #7bb701">Discover Crop Comm</a>
    </div>
 
 </section>
@@ -91,17 +91,17 @@ if(isset($_POST['add_to_cart'])){
  <div class="carousel-inner" role="listbox">
    <div class="item active">
      <div class="container">
-        <img src="images/1.jpg" class="img-fluid" >
+        <img src="images/AgriProds1.jpeg" class="img-fluid" >
     </div>
    </div>
    <div class="item">
      <div class="container">
-      <img src="images/2.jpg" class="img-fluid" >
+      <img src="images/AgriProds2.jpeg" class="img-fluid" >
   </div>
    </div>
    <div class="item">
      <div class="container">
-      <img src="images/3.jpg" class="img-fluid" >
+      <img src="images/AgriProds3.jpeg" class="img-fluid" >
   </div>
    </div>
  </div>
@@ -159,41 +159,41 @@ if(isset($_POST['add_to_cart'])){
 
 <section class="home-blogs">
 
-    <h1 class="title">HEALTH ARTICLES </h1>
+    <h1 class="title">Agriculture Articles </h1>
 
     <div class="box-container">
     <div class="box">
             <div class="image">
-                <img src="images/article1.jpg" alt="">
+                <img src="images/AgriArticle1.jpg" alt="">
             </div>
             <div class="content">
                 
-                <h3>Ear Wax Removal- What Treatment You Must Do</h3>
-                <p>Each and every person needs to be clean always to maintain a healthy lifestyle. But cleaning inside your ears is the most difficult thing to do. You might do it by inserting earbuds or cotton. But you probably heard that doctors don’t recommend inserting anything into your ears.....</p>
-                <a href="https://getmeds.ph/blog/ear-wax-removal/" class="btn"style= "background-color: #2a0475"> Read more <span class="fas fa-chevron-right"></span> </a>
+                <h3>Sustainable Agriculture - Preventing Poverty</h3>
+                <p>Around 80% of the world's extreme poor live in rural areas. In many developing countries, food security and rural development are ongoing challenges. Climate change and other global crises increasingly threaten rural livelihoods. Consequently, there is a rural exodus: poor farmers move to the cities in search of income, placing a greater strain on food security. </p>
+                <a href="https://www.swisscontact.org/en/our-work/our-expertise/sustainable-agriculture?gclid=Cj0KCQjwgLOiBhC7ARIsAIeetVAvKbEfo4rWvk7dlilJ1V7_WtE-ilIcA9Yc1kdywaSEUdjvD4U0ehoaAuTFEALw_wcB" class="btn"style= "background-color: #7bb701"> Read more <span class="fas fa-chevron-right"></span> </a>
             </div>
         </div>
 
         <div class="box">
             <div class="image">
-                <img src="images/article2.jpg" alt="">
+                <img src="images/AgriArticle2.jpg" alt="">
             </div>
             <div class="content">
-                <h3>Prevention: 8 Most Common Nutrient Deficiencies</h3>
-                <p>As a busy bee, you may prioritize work, among other things, including your health. Aside from the usual diseases, nutrient deficiency is a common health issue that you can neglect or take with little importance. You’re only reminded to focus on your wellness once you start to feel symptoms of certain illnesses.....</p>
-                <a href="https://getmeds.ph/blog/common-nutrient-deficiencies-and-how-to-prevent-them/" class="btn"style= "background-color: #2a0475"> Read more <span class="fas fa-chevron-right"></span> </a>
+                <h3>Technology: The Future of Agriculture</h3>
+                <p>Twenty-first century robotics and sensing technologies have the potential to solve problems as old as farming itself. “I believe, by moving to a robotic agricultural system, we can make crop production significantly more efficient and more sustainable,” says Simon Blackmore, an engineer at Harper Adams University in Newport, UK.</p>
+                <a href="https://www.nature.com/articles/544S21a" class="btn"style= "background-color: #7bb701"> Read more <span class="fas fa-chevron-right"></span> </a>
             </div>
         </div>
        
         <div class="box">
             <div class="image">
-                <img src="images/article3.png" alt="">
+                <img src="images/AgriArticle3.jpg" alt="">
             </div>
             <div class="content">
                 
-                <h3>How AI Can Help in Chronic Care?</h3>
-                <p>Chronic conditions are a major concern across the globe. And here is the proof! US healthcare spends almost $1.65 trillion on chronic care. Approximately 14% of Canadian people are suffering from at least 2+ chronic disease. Chronic conditions are the leading cause of death in the Philippines....</p>
-                <a href="https://getmeds.ph/blog/how-ai-can-help-in-chronic-care/" class="btn"style= "background-color: #2a0475"> Read more <span class="fas fa-chevron-right" ></span> </a>
+                <h3>Organic Agriculture: What is organic agriculture?</h3>
+                <p>Bring nature to your plate with organic farming. This innovative approach to agriculture ditches synthetic fertilizers, pesticides, and genetically modified organisms in favor of natural processes that fertilize and protect crops. The goal is to create a sustainable, self-sufficient ecosystem where soil fertility is enhanced and preserved for future generations.</p>
+                <a href="https://getmeds.ph/blog/how-ai-can-help-in-chronic-care/" class="btn"style= "background-color: #7bb701"> Read more <span class="fas fa-chevron-right" ></span> </a>
             </div>
         </div>
 
@@ -207,16 +207,13 @@ if(isset($_POST['add_to_cart'])){
    <div class="flex">
 
       <div class="image">
-         <img src="images/about.svg" alt="">
+         <img src="images/AgriAbout.jpg" alt="">
       </div>
 
       <div class="content">
          <h3>About Us</h3>
-         <p>The MOO Med Shop is backed by professionals with nearly two decades of experience in medical supplies and equipment.
-             With our partners from the Philippines and all over the world, The Medical Shop features a wide array of quality products for home health care and the healthcare practitioner.
-              Our commitment to customer satisfaction ensures shopping ease and timely product deliveries. 
-              Every day, The MOO Med Shop Direct offers these and more customers in the Philippines.</p>
-         <a href="about.php" class="btn"style= "background-color: #666">Read More</a>
+         <p>Crop Comm Store is an online platform that brings farmers and buyers together. Our mission is to create a transparent and fair marketplace for farmers to sell their crops directly to buyers. We strive to support local agriculture and provide consumers with fresh, healthy, and sustainable food options.</p>
+         <a href="about.php" class="btn"style= "background-color: #7bb701">Read More</a>
       </div>
 
    </div>
@@ -227,11 +224,11 @@ if(isset($_POST['add_to_cart'])){
 
    <div class="content">
    <form>
-      <h3>MOO MED STORE NEWSLETTER</h3>
+      <h3>Crop Comm Store Newsletter</h3>
       <p>Stay informed about our latest offers.</p>
          <input type="email" class="form-control mt-2" id="emailenter" placeholder="email@gmail.com">
 
-    <button class="white-btn"style= "background-color: #2a0475" input type="submit">Subscribe</button>
+    <button class="white-btn"style= "background-color: #7bb701" input type="submit">Subscribe</button>
                                                
     </form>
    </div>

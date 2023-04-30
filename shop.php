@@ -59,7 +59,7 @@ if(isset($_POST['add_to_cart'])){
 <?php include 'header.php'; ?>
 
 <div class="headingshop">
-   <h3>MOO MED STORE</h3>
+   <h3>CROP COMM STORE</h3>
 </div>
 
 <section class="productshop">

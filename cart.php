@@ -103,7 +103,7 @@ if(isset($_POST['remove_cart'])){
       <p>Products Sub Total: <span>₱<?php echo $grand_total; ?>.00</span></p>
       <div class="flex">
          <a href="shop.php" class="option-btn">Continue Shopping</a>
-         <a href="checkout.php" class="btn" style= "background-color: #8e44ad" <?php echo ($grand_total > 1)?'':'disabled'; ?>">proceed to checkout</a>
+         <a href="checkout.php" class="btn" style= "background-color: #7bb701" <?php echo ($grand_total > 1)?'':'disabled'; ?>">proceed to checkout</a>
       </div>
    </div>
 

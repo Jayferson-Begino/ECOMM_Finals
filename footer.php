@@ -3,11 +3,11 @@
    <div class="box-container">
 
       <div class="box">
-         <h3>MORE MEDICINE SHOPS</h3>
-         <a href="https://getmeds.ph/">Getmeds Philippines </a>
-         <a href="https://medicalshop.ph/">The Medical Shop</a>
-         <a href="https://www.medexpress.com.ph/">MedExpress</a>
-         <a href="https://www.rosepharmacy.com/">Rose Pharmacy</a>
+         <h3>AGRICULTURAL STORES</h3>
+         <a href="https://www.farmersstop.com/">FARMER'S STOP </a>
+         <a href="https://www.krushikendra.com/">KRUSHIKENDRA</a>
+         <a href="https://shopee.ph/adithabautista">ADITHA'S FARM SUPPLY</a>
+         <a href="https://ph.eastwestseed.com/">EASTWEST SEED</a>
       </div>
 
       <div class="box">
@@ -22,7 +22,7 @@
          <h3>CONTACT US</h3>
          <p> <i class="fas fa-tablet-alt"></i> 09772703763 </p>
          <p> <i class="fas fa-tty"></i> (123) 456-7890 </p>
-         <p> <i class="fas fa-envelope"></i> BU_bsit3A@gmail.com </p>
+         <p> <i class="fas fa-envelope"></i> BU_bsit3C@gmail.com </p>
          <p> <i class="fas fa-map-marker-alt"></i> Legazpi City, Albay</p>
       </div>
 
@@ -37,6 +37,6 @@
 
    </div>
 
-   <p class="credit"> &copy; WEB DEVELOPMENT BSIT 3A-- <span>MARAÑO, OCAMPO, OLIVA</span> </p>
+   <p class="credit"> &copy; E-COMMERCE BSIT 3C-- <span>BERMEJO, BEGINO, ENCABO, OLIVA</span> </p>
 
 </section>

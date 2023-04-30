@@ -65,7 +65,7 @@ if(isset($_POST['send'])){
       <input type="email" name="email" required placeholder="Email" class="box">
       <input type="number" name="number" required placeholder="Number" class="box">
       <textarea name="message" class="box" placeholder="Message" id="" cols="30" rows="10"></textarea>
-      <input type="submit" value="Send Message" style="background-color:#ea0f8f" name="send" class="btn">
+      <input type="submit" value="Send Message" style="background-color: #7bb701" name="send" class="btn">
    </form>
    </div>
    

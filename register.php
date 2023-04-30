@@ -40,7 +40,7 @@ if(isset($_POST['submit'])){
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/3.css">
+   <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -68,7 +68,7 @@ if(isset($message)){
 
    <form action="" method="post">
    <div class="share">
-         <img src="LOGO.png" class="responsive">
+         <img src="cropcomm_logo.png" class="responsive">
          </div>
       <h3>Register Now</h3>
       <input type="text" name="name" placeholder="Enter Name" required class="box">
@@ -79,7 +79,7 @@ if(isset($message)){
          <option value="user">CUSTOMER</option>
          <option value="admin">ADMIN</option>
       </select>
-      <input type="submit" name="submit" style= "background-color: #ea0f8f" value="register now" class="btn">
+      <input type="submit" name="submit" style= "background-color: #f1a507" value="register now" class="btn">
       <p>Already have an account? <a href="login.php" >Click this</a></p>
    </form>
 
