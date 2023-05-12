@@ -69,7 +69,7 @@ if(isset($message)){
 ?>
    <div class="video-wrapper">
    <video playsinline autoplay muted loop>
-    <source src="images/MM.mp4" type="video/mp4">
+    <source src="images/cornfield.mp4" type="video/mp4">
    </video>
    </div>
 <div class="form-container">

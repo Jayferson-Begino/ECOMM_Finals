@@ -159,7 +159,7 @@ section{
     align-items: center;
     justify-content: center;
     gap:1rem;
-    background: url(../images/contact.png) no-repeat;
+    background: url(../images/call.mp4) no-repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -515,8 +515,13 @@ video {
 .header .header-2 .flex .user-box .delete-btn{
    margin-top: 0;
 }
+.logocropcomm{
+   margin-left: auto;
+}
 .responsive {
    width: 35%;
+   margin-left: auto;
+   margin-right: auto;
    height: auto;
  }
 .home{
