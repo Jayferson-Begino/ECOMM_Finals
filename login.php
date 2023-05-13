@@ -68,8 +68,13 @@ if(isset($message)){
 }
 ?>
    <div class="video-wrapper">
+<<<<<<< HEAD
    <<video playsinline autoplay muted loop poster="images/AgricultureLogin.jpg">
     <!--<source src="images/MM.mp4" type="video/mp4">-->
+=======
+   <video playsinline autoplay muted loop>
+    <source src="images/cornfield.mp4" type="video/mp4">
+>>>>>>> 95b3a75c091d9dd90d5e552c585e39e41a9dae3c
    </video>
    </div>
 <div class="form-container">

@@ -56,9 +56,11 @@ if(isset($_POST['send'])){
 <section class="contact">
 
    <form action="" method="post">
-   <div class="share">
-         <img src="images/cus.png" class="responsive">
-         </div>
+   <div class="video-wrapper">
+   <video playsinline autoplay muted loop>
+    <source src="images/contact.mp4" type="video/mp4">
+   </video>
+   </div>
    <h3>Send a Message!</h3>
 
       <input type="text" name="name" required placeholder="Name" class="box">
