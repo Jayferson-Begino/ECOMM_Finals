@@ -12,7 +12,7 @@ if(isset($message)){
 ?>
 
 <header class="header">
-
+<!--
    <div class="header-1">
       <div class="flex">
          <div class="share">
@@ -21,9 +21,10 @@ if(isset($message)){
          <a href="logout.php" class="delete-btn" style= "background-color: #f1a50f">logout</a>
       </div>
    </div>
-
+-->
    <div class="header-2">
       <div class="flex">
+      <img src="cropcomm_logo.png" class="responsive"  style="height:78.75px;width:78.75px">
       <a href="home.php" class="logo">Crop Comm Store</a>
 
          <nav class="navbar">
@@ -44,10 +45,11 @@ if(isset($message)){
             ?>
             <a href="cart.php"> <i class="fas fa-shopping-cart"></i> <span>(<?php echo $cart_rows_number; ?>)</span> </a>
          </div>
-
+         
          <div class="user-box">
             <p>USER: <span><?php echo $_SESSION['user_name']; ?></span></p>
             <p>EMAIL: <span><?php echo $_SESSION['user_email']; ?></span></p>
+            <a href="logout.php" class="delete-btn" style= "background-color: #f1a50f">logout</a>
          </div>
       </div>
    </div>

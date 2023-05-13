@@ -153,7 +153,7 @@ if(isset($_POST['order_btn'])){
             <input type="number" min="0" name="pin_code" required placeholder="">
          </div>
       </div>
-      <input type="submit" value="order now" class="btn" name="order_btn"style= "background-color: #ea0f8f">
+      <input type="submit" value="order now" class="btn" name="order_btn"style= "background-color: #7bb701">
    </form>
 
 </section>

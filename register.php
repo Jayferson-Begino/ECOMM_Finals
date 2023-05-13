@@ -60,13 +60,13 @@ if(isset($message)){
 }
 ?>
    <div class="video-wrapper">
-   <video playsinline autoplay muted loop>
-    <source src="images/MM.mp4" type="video/mp4">
+   <video playsinline autoplay muted loop poster="images/AgricultureRegister.png">
+    <!--<source src="images/MM.mp4" type="video/mp4">-->
    </video>
    </div>
 <div class="form-containers">
 
-   <form action="" method="post">
+   <form action="" method="post" style = "opacity: 0.8;">
    <div class="share">
          <img src="cropcomm_logo.png" class="responsive">
          </div>
