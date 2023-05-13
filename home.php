@@ -66,13 +66,12 @@ if(isset($_POST['add_to_cart'])){
 
 <section class="home">
 <div class="video-wrapper">
-<<<<<<< HEAD
+
    <video playsinline autoplay muted loop poster="images/AgriHomeImage.png" >
-    <!--<source src="images/hvid.mp4" type="video/mp4">-->
-=======
+    <source src="images/AgriHome.mp4" type="video/mp4">
    <video playsinline autoplay muted loop>
-    <source src="images/Agriculture.mp4" type="video/mp4">
->>>>>>> 95b3a75c091d9dd90d5e552c585e39e41a9dae3c
+    <source src="images/AgriHome.mp4" type="video/mp4">
+
    </video>
    </div>
 

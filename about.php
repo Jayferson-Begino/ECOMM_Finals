@@ -74,13 +74,13 @@ if(!isset($user_id)){
 
         <div class="box">
             <i class="fas fa-truck"></i>
-            <h3>Quick Medicine Delivery at your Doorsteps</h3>
+            <h3>Quick Product Delivery at your Doorsteps</h3>
           
         </div>
 
         <div class="box">
             <i class="fas fa-cart-shopping"></i>
-            <h3>Fast and easy medicine ordering</h3>
+            <h3>Fast and easy Product ordering</h3>
 
         </div>
 
