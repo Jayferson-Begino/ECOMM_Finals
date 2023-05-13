@@ -444,7 +444,8 @@ section{
 }
 
 .show-products .box-container .box img{
-   height: 20rem;
+   height: 200px;
+   width: 170px;
 }
 
 .show-products .box-container .box .name{
