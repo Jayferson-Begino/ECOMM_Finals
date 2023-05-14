@@ -17,7 +17,7 @@ if(isset($_POST['add_to_cart'])){
    $product_price = $_POST['product_price'];
    $product_image = $_POST['product_image'];
    $product_quantity = $_POST['product_quantity'];
-   $date_added= date('d-M-Y');
+   $date_added= date('Y-m-d');
 
    $check_cart_numbers = mysqli_query($conn, "SELECT * FROM `cart` WHERE name = '$product_name' AND user_id = '$user_id'") or die('query failed');
 
@@ -30,7 +30,7 @@ if(isset($_POST['add_to_cart'])){
          $message[] = 'Insufficient stocks!';
       }else{
          $curr_qty = $product_qty - $product_quantity;
-         $conn->query("UPDATE products SET product_qty='$curr_qty' WHERE name = '$product_name'") or die($db_link->error);
+         $conn->query("UPDATE products SET product_qty='$curr_qty' WHERE name = '$product_name'") or die(mysqli_error($conn));
          $message[] = 'Product Added to Cart!';
       }
    }
@@ -75,6 +75,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
      <form action="" method="post" class="box">
       <img class="image" src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
+      <div class="date"><?php echo $fetch_products['Date']; ?></div>
       <div class="name"><?php echo $fetch_products['name']; ?></div>
       <div class="product_qty" min=0>Stocks: <?php echo $fetch_products['product_qty']; ?></div>
       <div class="price">₱<?php echo $fetch_products['price']; ?>.00</div>

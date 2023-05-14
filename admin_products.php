@@ -1,5 +1,4 @@
 <?php
-
 include 'config.php';
 
 session_start();
@@ -19,13 +18,14 @@ if(isset($_POST['add_product'])){
    $image_size = $_FILES['image']['size'];
    $image_tmp_name = $_FILES['image']['tmp_name'];
    $image_folder = 'uploaded_img/'.$image;
+   $date = $_POST['date'];
 
-   $select_product_name = mysqli_query($conn, "SELECT name FROM `products` WHERE name = '$name'") or die('Query failed!');
+   $select_product_name = mysqli_query($conn, "SELECT name FROM `products` WHERE name = '$name'") or die(mysqli_error($conn));
 
    if(mysqli_num_rows($select_product_name) > 0){
       $message[] = 'Product Name Already Added!';
    }else{
-      $add_product_query = mysqli_query($conn, "INSERT INTO `products`(name, product_qty, price, image) VALUES('$name', '$qty', '$price', '$image')") or die('Query failed!');
+      $add_product_query = mysqli_query($conn, "INSERT INTO `products`(name, product_qty, price, image, Date) VALUES('$name', '$qty', '$price', '$image', '$date')") or die(mysqli_error($conn));
 
       if($add_product_query){
          if($image_size > 2000000){
@@ -39,6 +39,7 @@ if(isset($_POST['add_product'])){
       }
    }
 }
+
 
 if(isset($_GET['delete'])){
    $delete_id = $_GET['delete'];
@@ -111,6 +112,7 @@ if(isset($_POST['update_product'])){
       <input type="number" min="0" name="price" class="box" placeholder="Enter Product Price" required>
       <input type="number" min="0" name="product_qty" class="box" placeholder="Enter Product Quantity" required>
       <input type="file" name="image" accept="image/jpg, image/jpeg, image/png" class="box" required>
+      <input type="date" name="date" class="box" placeholder="Date" required>
       <input type="submit" value="add product" name="add_product" class="btn">
    </form>
 
@@ -130,6 +132,7 @@ if(isset($_POST['update_product'])){
             while($fetch_products = mysqli_fetch_assoc($select_products)){
       ?>
       <div class="box">
+         <div class="date"><?php echo $fetch_products['Date']; ?></div>
          <img src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
          <div class="name"><?php echo $fetch_products['name']; ?></div>
          <div class="product_qty"><?php echo $fetch_products['product_qty']; ?> stocks</div>
