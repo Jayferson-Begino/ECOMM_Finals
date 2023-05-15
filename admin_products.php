@@ -25,7 +25,7 @@ if(isset($_POST['add_product'])){
    if(mysqli_num_rows($select_product_name) > 0){
       $message[] = 'Product Name Already Added!';
    }else{
-      $add_product_query = mysqli_query($conn, "INSERT INTO `products`(name, product_qty, price, image, Date) VALUES('$name', '$qty', '$price', '$image', '$date')") or die(mysqli_error($conn));
+      $add_product_query = mysqli_query($conn, "INSERT INTO `products`(name, product_qty, price, image, date_and_time_added) VALUES('$name', '$qty', '$price', '$image', '$date')") or die(mysqli_error($conn));
 
       if($add_product_query){
          if($image_size > 2000000){
@@ -132,9 +132,9 @@ if(isset($_POST['update_product'])){
             while($fetch_products = mysqli_fetch_assoc($select_products)){
       ?>
       <div class="box">
-         <div class="date"><?php echo $fetch_products['Date']; ?></div>
          <img src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
          <div class="name"><?php echo $fetch_products['name']; ?></div>
+         <div class="date">Date Added: <?php echo $fetch_products['date_and_time_added']; ?></div>
          <div class="product_qty"><?php echo $fetch_products['product_qty']; ?> stocks</div>
          <div class="price">₱<?php echo $fetch_products['price']; ?>.00</div>
          <a href="admin_products.php?update=<?php echo $fetch_products['id']; ?>" class="option-btn">UPDATE</a>

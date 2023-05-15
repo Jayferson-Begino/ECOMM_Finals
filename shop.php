@@ -75,7 +75,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
      <form action="" method="post" class="box">
       <img class="image" src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
-      <div class="date"><?php echo $fetch_products['Date']; ?></div>
+      <div class="date">Date restocked: <?php echo $fetch_products['date_and_time_added']; ?></div>
       <div class="name"><?php echo $fetch_products['name']; ?></div>
       <div class="product_qty" min=0>Stocks: <?php echo $fetch_products['product_qty']; ?></div>
       <div class="price">₱<?php echo $fetch_products['price']; ?>.00</div>
