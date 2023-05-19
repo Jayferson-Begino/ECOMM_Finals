@@ -22,7 +22,7 @@ if(isset($_POST['send'])){
    if(mysqli_num_rows($select_message) > 0){
       $message[] = 'Message already sent!';
    }else{
-      mysqli_query($conn, "INSERT INTO `message`(user_id, name, email, number, message) VALUES('$user_id', '$name', '$email', '$number', '$msg')") or die('query failed');
+      mysqli_query($conn, "INSERT INTO `message` (user_id, name, email, number, message) VALUES('$user_id', '$name', '$email', '$number', '$msg')") or die('query failed');
       $message[] = 'Message sent succesfully. Thank you!';
    }
 
@@ -56,11 +56,8 @@ if(isset($_POST['send'])){
 <section class="contact">
 
    <form action="" method="post">
-   <div class="video-wrapper">
-   <video playsinline autoplay muted loop>
-    <source src="images/contact.mp4" type="video/mp4">
-   </video>
-   </div>
+   
+  
    <h3>Send a Message!</h3>
 
       <input type="text" name="name" required placeholder="Name" class="box">
