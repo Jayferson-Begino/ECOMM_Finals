@@ -16,13 +16,14 @@ if(isset($_POST['send'])){
    $email = mysqli_real_escape_string($conn, $_POST['email']);
    $number = $_POST['number'];
    $msg = mysqli_real_escape_string($conn, $_POST['message']);
+   $currentDate = date("Y-m-d");
 
    $select_message = mysqli_query($conn, "SELECT * FROM `message` WHERE name = '$name' AND email = '$email' AND number = '$number' AND message = '$msg'") or die('query failed');
 
    if(mysqli_num_rows($select_message) > 0){
       $message[] = 'Message already sent!';
    }else{
-      mysqli_query($conn, "INSERT INTO `message` (user_id, name, email, number, message) VALUES('$user_id', '$name', '$email', '$number', '$msg')") or die('query failed');
+      mysqli_query($conn, "INSERT INTO `message` (user_id, name, email, number, date_added, message) VALUES('$user_id', '$name', '$email', '$number', '$currentDate', '$msg')") or die('query failed');
       $message[] = 'Message sent succesfully. Thank you!';
    }
 
