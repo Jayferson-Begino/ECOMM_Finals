@@ -37,6 +37,6 @@
 
    </div>
 
-   <p class="credit"> &copy; E-COMMERCE BSIT 3C-- <span>BERMEJO, BEGINO, ENCABO, OLIVA</span> </p>
+   <p class="credit"> &copy; E-COMMERCE BSIT 3C & 3B-- <span>BERMEJO, BEGINO, ENCABO, OLIVA</span> </p>
 
 </section>
